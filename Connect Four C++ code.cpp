@@ -98,7 +98,7 @@ void thank()
 }
 
 void filedata(player p1, player p2)
-/*{
+{
 	player p;
 	int f1 = 0, f2 = 0;
 	ifstream fptr;
@@ -131,7 +131,7 @@ if (checkname(p1.returnname()) || checkname(p2.returnname()))
 	rename("rename.dat", "SKEAM.dat");
 	fptr.close();
 	off.close();
-}*/
+}
 
 float game()
 {
