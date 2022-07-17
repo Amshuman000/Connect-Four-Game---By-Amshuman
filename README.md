@@ -5,7 +5,7 @@ Connect Four is a 2-player connection game in which the players take turns selec
 
 FUNCTIONS USED<br />
 •	void scoreboard(char[],char[],int,int)                                         
- To display the final score of the players.<br /
+ To display the final score of the players.
 
 •	void dispfile(void)                                                                           
 To display the data file contents<br /><br />
