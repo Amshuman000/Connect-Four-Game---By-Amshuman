@@ -4,25 +4,25 @@ This game has been made for C++ Turbo version<br />
 Connect Four is a 2-player connection game in which the players take turns selecting blocks which are marked ‘ X ’ and ‘ O ’ respectively. The players can select a column by entering its number. If any number is repeated the block in the respective column but the row just above the previous one can be selected. The objective of the game is to be first to form a horizontal, vertical, or diagonal line of four blocks, while preventing the opponent from doing the same.
 
 FUNCTIONS USED<br />
-•	void scoreboard(char[],char[],int,int) <br />                                         
+•	void scoreboard(char[],char[],int,int)                                         
  To display the final score of the players.<br /><br />
 
-•	void dispfile(void)  <br />                                                                            
+•	void dispfile(void)                                                                           
 To display the data file contents<br /><br />
 
-•	void checkname(char[])  <br />                                                                
+•	void checkname(char[])                                                                 
 To check whether a player has already played this game before<br />
 
-•	void printBoard(char* board)  <br />                                                        
+•	void printBoard(char* board)                                                        
 To display the entire Game Board<br />
-<br />
-•	int takeTurn(char* board, int player, const char* )  <br />                  
+
+•	int takeTurn(char* board, int player, const char* )                  
 Allows the player to enter the coordinates<br />
-<br />
-•	int checkWin(char* board)  <br />                                                                 
+
+•	int checkWin(char* board)                                                                
 To select the winner<br />
-<br />
-•	int checkFour(char*board, int, int, int, int);<br />
+
+•	int checkFour(char*board, int, int, int, int);
 <br /><br />
 
 Checks whether 4 nearby columns are filled<br />
