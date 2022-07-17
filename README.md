@@ -5,7 +5,7 @@ Connect Four is a 2-player connection game in which the players take turns selec
 
 FUNCTIONS USED<br />
 •	void scoreboard(char[],char[],int,int)                                         
- To display the final score of the players.<br /><br />
+ To display the final score of the players.<br /
 
 •	void dispfile(void)                                                                           
 To display the data file contents<br /><br />
@@ -23,30 +23,31 @@ Allows the player to enter the coordinates<br />
 To select the winner<br />
 
 •	int checkFour(char*board, int, int, int, int);
-<br /><br />
+<br />
+<br />
+Checks whether 4 nearby columns are filled
+•	int horizontalCheck(char*board) 
 
-Checks whether 4 nearby columns are filled<br />
-•	int horizontalCheck(char*board)  <br />                                                   
 To check the 4 horizontal columns are filled or not<br />
+•	int verticalCheck(char*board) 
 
-•	int verticalCheck(char*board)                                                                    
  To check the 4 vertical columns are filled or not<br />
 <br />
-•	int diagonalCheck(char*board) <br />                                                         
+•	int diagonalCheck(char*board)                                                          
 To check the four diagonal columns are filled or not<br />
 
 •	void filedata(player p1, player p2)                                                
 To accept an object of class players and update scores of old players or write details of new players into file <br />
-<br />
-•	void delay()      <br />                                                                                  
+
+•	void delay()                                                                                       
 To create a delay during runtime<br />
-<br />
-•	void animation(char *g, int i)  <br />                                                       
+
+•	void animation(char *g, int i)                                                      
 To create an animation like effect<br />
-<br />
-•	void thank()   <br />                                                                                     
+
+•	void thank()                                                                                     
 To print Thank You statement on exit from game <br />
-<br />
-•	int game()    <br />                                                                            
+
+•	int game()                                                                            
 Contains the logic of the game<br />
 <br />
